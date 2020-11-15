@@ -5,7 +5,7 @@
 
         <ng-container *ngFor="let img of carouselImages">
           <ng-template carouselSlide [id]="img.id">
-            <img [src]="img.image" class='carousel-img'>
+            <img [src]="img.image" class='carousel-img' routerLink='/cuidar-deles/conteudo'>
           </ng-template>
         </ng-container>
 
@@ -40,7 +40,7 @@
       </h3>
     </div>
 
-    <div class="col col-xl-12 m-t-50 m-b-20">
+    <div class="col col-xl-12 m-t-50 m-b-20 m-l-35">
       <img src="assets/images/CampanhasAnteriores.png" class="m-l-50">
     </div>
     <div class="row">
@@ -48,19 +48,19 @@
         <h3 class="text-center">
           <b>Titulo 1</b>
         </h3>
-        <a><img src="assets/images/campanha.png" class="m-l-50"></a>
+        <a><img src="assets/images/campanha.png" class="m-l-50" routerLink='/cuidar-deles/conteudo'></a>
       </div>
       <div class="col-xl-4">
         <h3 class="text-center">
           <b>Titulo 2</b>
         </h3>
-       <a><img src="assets/images/campanha.png" class="m-l-50"></a> 
+       <a><img src="assets/images/campanha.png" class="m-l-50" routerLink='/cuidar-deles/conteudo'></a> 
       </div>
       <div class="col-xl-4">
         <h3 class="text-center">
           <b>Titulo 3</b>
         </h3>
-        <a><img src="assets/images/campanha.png" class="m-l-50"></a> 
+        <a><img src="assets/images/campanha.png" class="m-l-50" routerLink='/cuidar-deles/conteudo'></a> 
       </div>
     </div>
 
