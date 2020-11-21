@@ -11,6 +11,7 @@ const routes: Routes = [
     { path: 'junte-se', loadChildren: () => import('../../modules/junte-se-nos/junte-se-nos.module').then((m) => m.JunteSeNosModule)},
     { path: 'cuidar-deles', loadChildren: () => import('../../modules/informativo/informativo.module').then((m) => m.InformativoModule)},
     { path: 'adote', loadChildren: () => import('../../modules/adote/adote.module').then((m) => m.AdoteModule)},
+    { path: 'voluntario', loadChildren: () => import('../../modules/voluntario/voluntario.module').then((m) => m.VoluntarioModule)},
   ]
 }
 ];
